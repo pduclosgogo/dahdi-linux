@@ -34,7 +34,7 @@
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(5, 16, 0)
 #include <asm/types.h>
 #else
-#include <stdbool.h>
+#include <linux/types.h>
 #endif
 
 #define VPMOCT_FIRM_HEADER_LEN 32

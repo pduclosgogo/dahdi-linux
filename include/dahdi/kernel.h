@@ -1488,7 +1488,7 @@ static inline void *PDE_DATA(const struct inode *inode)
 #endif /* 4.15.0 */
 #endif /* 5.6 */
 
-#if LINUX_VERSION_CODE >= KERNEL_VERSION(5, 17, 0)
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(5, 14, 0)
 #ifdef CONFIG_PROC_FS
 #define PDE_DATA(i)	pde_data(i)
 #endif

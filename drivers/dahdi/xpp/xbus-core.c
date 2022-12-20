@@ -34,6 +34,7 @@
 #include <linux/workqueue.h>
 #include <linux/device.h>
 #include <linux/delay.h>	/* for msleep() to debug */
+#include <dahdi/kernel.h>
 #include "xpd.h"
 #include "xpp_dahdi.h"
 #include "xbus-core.h"

@@ -58,7 +58,7 @@ Tx Gain - W/Pre-Emphasis: -23.99 to 0.00 db
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(5, 16, 0)
 #include <asm/types.h>
 #else
-#include <stdbool.h>
+#include <linux/types.h>
 #endif
 
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 30)
